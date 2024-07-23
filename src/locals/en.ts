@@ -13,6 +13,7 @@ export default {
   密码登录: 'Password Login',
   输入您的用户名或手机号: 'Enter Your Username or Phone Number',
   用户名或手机号: 'Username or Phone Number',
+  用户名: 'Username',
   密码: 'Password',
   输入密码: 'Enter Password',
   切换为验证码登陆: 'Switch to Phone Verification Code Login',
@@ -99,9 +100,9 @@ export default {
   未开始: 'Not Started',
   进行中: 'In Progress',
   已完成: 'Completed',
-  '此功能为会员功能，如需使用请在“价格”页购买会员': 
+  '此功能为会员功能，如需使用请在“价格”页购买会员':
     'This function is for members only, please purchase membership on the "Pricing" page if needed',
-  'Your browser does not support the audio element': 
+  'Your browser does not support the audio element':
     'Your browser does not support the audio element',
   暂无数据: 'No Data',
   查看原题: 'View Original Question',
@@ -141,15 +142,15 @@ export default {
   目标管理: 'Goal Management',
   周报总结: 'Weekly Summary',
   开始你的学习第一步: 'Start Your First Step of Learning',
-  '在开始之前，我们希望通过几个问题来了解您的学习目标和期望，来为您制定最适合的学习方案。': 
+  '在开始之前，我们希望通过几个问题来了解您的学习目标和期望，来为您制定最适合的学习方案。':
     'Before we start, we would like to understand your learning goals and expectations with a few questions to tailor the best learning plan for you.',
   跳到: 'Skip to',
   这座小山已经容不下你了: 'This small hill can no longer accommodate you',
   '您的正确率过高，推荐您跳级下一个词库': 'Your accuracy is too high, we recommend skipping to the next word bank',
-  '自行跳过词库可能让您词汇掌握不扎实，且不能跳回原来的等级。为保证快速提升成绩，我们会从最基础的词库开始查漏补缺。当我们发现您已经掌握这个词库时，会主动提醒您更新到更高级的词汇库。': 
+  '自行跳过词库可能让您词汇掌握不扎实，且不能跳回原来的等级。为保证快速提升成绩，我们会从最基础的词库开始查漏补缺。当我们发现您已经掌握这个词库时，会主动提醒您更新到更高级的词汇库。':
     'Skipping word banks on your own may result in an unstable grasp of vocabulary, and you cannot return to the previous level. To ensure rapid improvement, we will start with the most basic word bank to identify and fill gaps. When we find that you have mastered this word bank, we will notify you to move up to a more advanced word bank.',
   鹦鹉智学AI单词背诵: 'ParrotBot AI Vocabulary Recitation',
-  '鹦鹉智学AI单词背诵会使用生词用AI生成文章来辅助背诵。这种背诵方式功能会让你的背诵记忆更加牢固、快速，也更加适应托福考试的要求。在我们过去做的实验中，100%的学生认为背诵效果提升，100%的学生认为这让单词背诵变得有趣。': 
+  '鹦鹉智学AI单词背诵会使用生词用AI生成文章来辅助背诵。这种背诵方式功能会让你的背诵记忆更加牢固、快速，也更加适应托福考试的要求。在我们过去做的实验中，100%的学生认为背诵效果提升，100%的学生认为这让单词背诵变得有趣。':
     'ParrotBot AI vocabulary recitation uses AI-generated passages with unfamiliar vocabulary to aid memorization. This method makes your memorization more solid and better adapted to TOEFL requirements. In our past experiments, 100% of students found that this method improved their memorization and made word recitation more enjoyable.',
   '鹦鹉智学 4步AI背诵法': 'ParrotBot AI 4-Step AI Recitation Method',
   AI筛选生词: 'AI-Filtered Vocabulary',
@@ -163,7 +164,7 @@ export default {
   不认识该词: 'Don\'t Recognize This Vocabulary',
   恭喜你完成了今天的任务: 'Congratulations on Completing Today\'s Task',
   返回单词首页: 'Return to Vocabulary Homepage',
-  
+
   学习目标: 'Learning Goals',
   问题1: 'Question 1',
   '您目前的学习阶段是？': 'What is Your Current Learning Stage?',
@@ -190,22 +191,46 @@ export default {
   '无限接近真实考试题，有几率在真实考试中复现。': 'Almost identical to the real exam questions, with a chance to appear in the actual exam.',
   免费版: 'Free Version',
   '0元/月': '0 Yuan/Month',
-  '免费使用我们所有模考，练习系统以及预测题，并获得个人问题诊断。': 
+  '免费使用我们所有模考，练习系统以及预测题，并获得个人问题诊断。':
     'Free use of all our mock exams, practice systems, and prediction questions, and receive personal issue diagnosis.',
-  '免费提供每日一次口语写作批改功能辅助您的学习。': 
+  '免费提供每日一次口语写作批改功能辅助您的学习。':
     'Free daily correction function for speaking and writing to assist your study.',
   '5月前注册赠送1年留学顾问。扫描企业微信领取': 'Register before May to get a one-year study abroad consultant. Scan WeChat for Business to receive.',
   最受欢迎: 'Most Popular',
   练习版会员: 'Practice Version Membership',
   '49元/月': '49 Yuan/Month',
-  '您可使用我们软件的全部功能：包括每日30题批改，实时答疑，单词无痛背诵，全能版心理支持等功能。': 
+  '您可使用我们软件的全部功能：包括每日30题批改，实时答疑，单词无痛背诵，全能版心理支持等功能。':
     'You can use all the functions of our software: including daily correction of 30 questions, real-time Q&A, painless vocabulary memorization, comprehensive psychological support, and more.',
   '赠送：三年留学顾问': 'Bonus: Three-Year Study Abroad Consultant',
   自适应学习版: 'Adaptive Learning Version',
   即将推出: 'Coming Soon',
-  '在练习版会员的基础上，您将获得网课及每日智能任务功能。': 
+  '在练习版会员的基础上，您将获得网课及每日智能任务功能。':
     'In addition to the practice version membership, you will get online courses and daily intelligent task functions.',
   '我们将附赠您12个月会员及终身留学顾问。': 'We will give you 12 months of membership and a lifetime study abroad consultant.',
   扫码联系客服: 'Scan to Contact Customer Service',
   领取礼包: 'Get Gift Package',
+  汉语: 'Chinese',
+  英语: 'English',
+  匈牙利语: 'Hungarian',
+  请选择语言模式: 'Please select a language mode',
+  打开网站提醒: 'Open Website Alerts',
+  打开短信提醒: 'Turn on SMS alerts',
+  个人账号: 'Personal account',
+  关于鹦鹉智学: 'About ParrotBot',
+  成绩计算中: 'Score calculation',
+  题库加载中: 'Question bank loading',
+  价格: 'Price',
+  设置: 'Setting',
+  看板: 'Dashboard',
+  阅读: 'Read',
+  听力: 'Listen',
+  口语: 'Speak',
+  写作: 'Write',
+  单词背诵: 'Vocabulary Recitation',
+  我的任务: 'MyTask',
+  个人学习诊断: 'PersonalLearningDiagnosis',
+  试题加载中: 'Question loading',
+  单词练习: 'Vocabulary Practice',
+  输入你想问的问题: 'Enter your question',
+  输入消息: 'Enter Message'
 }
